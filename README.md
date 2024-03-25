@@ -18,8 +18,8 @@ This is a simple React application for managing team members. It allows users to
 Syntax:
     - const [state, dispatch] = useReducer(reducer, initialState);
 
- # reducer: A function that receives the current state and an action, and returns the new state based on the action.
-  # initialState: The initial state value for the component.
+  `reducer: A function that receives the current state and an action, and returns the new state based on the action.
+  `initialState: The initial state value for the component.
 
 # Usage in the Application:
    - In the provided application, useReducer is used to manage the state related to team members and available employees. Here's how it's used:
